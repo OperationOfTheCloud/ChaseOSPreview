@@ -13,6 +13,7 @@ namespace ChaseOS2._0
     public class Kernel : Sys.Kernel
     {
 
+
         public string cddefault;
         public bool login;
         public bool driveCon;
