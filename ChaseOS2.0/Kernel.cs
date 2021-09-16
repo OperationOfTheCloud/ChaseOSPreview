@@ -12,8 +12,7 @@ namespace ChaseOS2._0
 {
     public class Kernel : Sys.Kernel
     {
-        private const string V = "DHSHGKJDHHDKJBKHBHSBVHDH";
-        private static Graphics gui;
+
         public string cddefault;
         public bool login;
         public bool driveCon;
