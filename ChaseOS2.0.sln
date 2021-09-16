@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChaseOS2.0", "ChaseOS2.0\ChaseOS2.0.csproj", "{AF150B69-64B8-4C1F-A04F-C8CED6EB472D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF150B69-64B8-4C1F-A04F-C8CED6EB472D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF150B69-64B8-4C1F-A04F-C8CED6EB472D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF150B69-64B8-4C1F-A04F-C8CED6EB472D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF150B69-64B8-4C1F-A04F-C8CED6EB472D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3D8D0DF-9B49-498D-BAC4-C328DBFCA7A9}
+	EndGlobalSection
+EndGlobal
