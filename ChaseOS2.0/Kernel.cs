@@ -31,6 +31,7 @@ namespace ChaseOS2._0
                 Console.WriteLine("filesystem ready");
 
                 Console.WriteLine("loading login");
+                Sys.PCSpeaker.Beep();
             }
             catch
             {
