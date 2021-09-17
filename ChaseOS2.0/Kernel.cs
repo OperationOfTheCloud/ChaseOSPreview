@@ -25,12 +25,9 @@ namespace ChaseOS2._0
             try
             {
                 Console.WriteLine("Welcome to ChaseOS, the calculator that can store files!");
-                Console.WriteLine("preparing file system");
+                Console.WriteLine("Preparing...");
                 Sys.FileSystem.VFS.VFSManager.RegisterVFS(FileManager);
-
-                Console.WriteLine("filesystem ready");
-
-                Console.WriteLine("loading login");
+                Console.WriteLine("Welcome.");
                 Sys.PCSpeaker.Beep();
             }
             catch
