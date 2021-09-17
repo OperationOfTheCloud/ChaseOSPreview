@@ -116,6 +116,7 @@ namespace ChaseOS2._0
                         string contents = @"" + user + "" + password;
                         byte[] data = Encoding.ASCII.GetBytes(contents);
                         filestream.Write(data, 0, (int)contents.Length);
+                        Console.WriteLine("Preparing first boot...");
                         var file2 = Sys.FileSystem.VFS.VFSManager.GetFile(@"0:\loginData.txt");
                         var filestream2 = file2.GetFileStream();
                         string contents2 = @"" + user.Length + "" + password.Length;
@@ -432,7 +433,8 @@ namespace ChaseOS2._0
 
                 }
 
-
+                Console.WriteLine("Loading ChaseOS V30...");
+                
             }
             catch (Exception e)
             {
@@ -442,6 +444,7 @@ namespace ChaseOS2._0
                 FileManager = Backup;
                 Run();
             }
+            Console.WriteLine("Loaded.");
         }
         protected override void Run()
         {
